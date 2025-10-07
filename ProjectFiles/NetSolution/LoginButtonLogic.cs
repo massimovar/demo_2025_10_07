@@ -15,6 +15,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Alarm;
 using FTOptix.Modbus;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

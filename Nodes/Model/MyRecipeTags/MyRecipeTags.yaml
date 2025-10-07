@@ -1,0 +1,17 @@
+Name: MyRecipeTags
+Id: g=5b3323921857fdd5f60d9dddee7507fe
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=b0e60e9a11d9253517e7a34006aa48a8
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=55d708dc3b7dd4c6120dc9c2f7a43473
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable3
+  Id: g=7f58ac0f7b5fc0875d20d459adc7544e
+  Type: BaseDataVariableType
+  DataType: Boolean

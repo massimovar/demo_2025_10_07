@@ -494,3 +494,4 @@ Children:
         Value: 2
 - File: myDataToLog/myDataToLog.yaml
 - File: MyAlarmsBits/MyAlarmsBits.yaml
+- File: MyRecipeTags/MyRecipeTags.yaml

@@ -9,12 +9,12 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [101,3],
+    "Dimensions": [121,3],
     "Body": [
      "","en-US","it-IT",
      "Reboot","Reboot","",
      "Mask","Mask","",
-     "Apply","Apply","",
+     "Apply","Apply","Applica",
      "RebootToCommitChanges","Reboot to commit changes","",
      "DHCPClientEnabled","DHCP client enabled","",
      "DNS2","DNS 2","",
@@ -111,7 +111,27 @@ Children:
      "Message","Message","Messaggio",
      "Acked","Acked","Riconosciuto",
      "Confirmed","Confirmed","Confermato",
-     "Severity","Severity","Gravità"
+     "Severity","Severity","Gravità",
+     "RecipesEditorStoreOfSchema","Store of schema","L'archivio dello schema",
+     "Save","Save","Salva",
+     "Delete","Delete","Elimina",
+     "Load","Load","Carica",
+     "RecipeControllerRecipe","Recipe","Ricetta",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","Il nome della ricetta è vuoto",
+     "RecipeControllerCreatedAndSaved","created and saved","creata e salvata",
+     "RecipeControllerDeleted","deleted","eliminata",
+     "RecipeControllerRecipeApplied","Recipe applied","Ricetta applicata",
+     "RecipeControllerRecipeLoaded","Recipe loaded","Ricetta caricata",
+     "RecipeControllerSaved","saved","salvata",
+     "RecipesEditorNotARecipe","is not a recipe","non è una ricetta",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","Variabile RecipeSchema non trovata",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","RecipeSchema non impostato",
+     "RecipesEditorRecipeNotFound","Recipe not found","Ricetta non trovata",
+     "RecipesEditorNotAStore","is not a store","non è un archivio",
+     "RecipesEditorNotSet","is not set","non è impostato",
+     "RecipesEditorStore","Store","Archivio",
+     "RecipesEditorNotFound","not found","non trovato",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","EditModel dello schema"
     ]
    }
 - Name: LocalizationDictionary2
