@@ -124,7 +124,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/demo_2025_10_07/UI/Screens/Home"
+      Value: "/Objects/demo_2025_10_07/UI/Screens/Sandbox"
   - Name: FontSize
     Type: BaseDataVariableType
     DataType: Size
