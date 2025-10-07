@@ -15,6 +15,10 @@ using FTOptix.Store;
 using FTOptix.Report;
 using FTOptix.TwinCAT;
 using FTOptix.CommunicationDriver;
+using FTOptix.CODESYS;
+using FTOptix.SQLiteStore;
+using FTOptix.Modbus;
+using FTOptix.EventLogger;
 #endregion
 
 public class SplashPanelLogic : BaseNetLogic

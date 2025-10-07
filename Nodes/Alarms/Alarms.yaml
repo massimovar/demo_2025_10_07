@@ -1,3 +1,256 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=058324278c0a4c2eb8bcaf29af158226
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d7a079d6e50b4156c1862411c8ca0649
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=198be2703f0de7ca9cb16b0b9ac76a25
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ef6188ae4b594e93a57473411b8eef4e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/demo_2025_10_07/CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag1"
+  - Name: LastEvent
+    Id: g=ff38bc023424c8db9cbe87aa78fd508d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=31;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=5cb7f1849b30e839a8d44939bfe4cba1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=ae06d4a023895dd04d7dddf2466f07a0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=8cef8f94970ef5119e4acee32fe1975b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":18,"TextId":"_motor1"}
+  - Name: MaxTimeShelved
+    Id: g=bd0bd6a222673aa0344b9c070245115e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=c6ef86adf9d4e30c8f64fba2db2c7510
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=46633169cb70aa9c5e364cd8ea835333
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm2
+  Id: g=de1b187913a1455dba8bdb424a1e1921
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2f4addf4a28c15d1704e41ca6fe739dd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ed94889b1734c73e677637cced48e651
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ebbdd59256204c2f92fba3299fca1f44
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/demo_2025_10_07/CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag2"
+  - Name: LastEvent
+    Id: g=f3a5fb374bd57f6febb05c479329f2ff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=31;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=d3d77cee1078ffc1d1d3214d9cce7b45
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=f5cb3c1b2221c82eb6d7ee7b3b727996
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=d2610305cd117a153bf0655f690ea4fa
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":18,"TextId":"_motor2"}
+  - Name: MaxTimeShelved
+    Id: g=884584a43c8fe20ec20864568dfe899e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=25d85e1f585e752e43654f66868b93d5
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=560cb8c1467e8bdcabf366d33082ee06
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm3
+  Id: g=d83417ddd9e54e9eae0a64763f02d55d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6c0ff9d04ed409643acfe604b6d3da26
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ade145efe78d214fd2f78b627e845c4c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dc2f88735c7c45c7a78de1e38f0fd0e3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/demo_2025_10_07/CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag3"
+  - Name: LastEvent
+    Id: g=433e03bb7566f88e6a8edb7c78f1ac52
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=31;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=62779a8c649eba4613c51549a3b56603
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=8e44e80ccf4c53611ed5074416ec7adc
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=545429ea663e038f508d777968cfac22
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":18,"TextId":"_motor3"}
+  - Name: MaxTimeShelved
+    Id: g=4ad9db22232749ae22d1e2464ee76413
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=0a7bac4991798d4023cc302f94098158
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=8f53da1c6ee7406d9daa85ec5d9f8d2f
+    Type: BaseDataVariableType
+    DataType: Boolean

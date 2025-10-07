@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [88,3],
+    "Dimensions": [101,3],
     "Body": [
      "","en-US","it-IT",
      "Reboot","Reboot","",
@@ -56,7 +56,7 @@ Children:
      "FTRemoteAccessConnection","FT Remote Access connection","",
      "RegisterToDomainString","To connect, add your device in FT Remote Access.","",
      "Connecting"," Connecting","",
-     "Name","Name","",
+     "Name","Name","Nome",
      "RegisterToDomainPassword","Password:","",
      "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.","",
      "Disconnected","Disconnected ","",
@@ -98,10 +98,24 @@ Children:
      "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","",
      "LoginFormLoginSuccessful","Login successful","",
      "LoginFormAuthenticationFailed","Authentication failed","",
-     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user",""
+     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user","",
+     "Timestamp","Timestamp","Timestamp",
+     "TimedShelve","Timed Shelve","Sospensione temporizzata",
+     "Acknowledge","Acknowledge","Riconosci",
+     "Acknowledge All","Acknowledge All","Riconosci tutti",
+     "Active","Active","Attivo",
+     "Confirm","Confirm","Conferma",
+     "OneShotShelve","One-Shot Shelve","Sospensione singola",
+     "Confirm All","Confirm All","Conferma tutti",
+     "SourceName","Source Variable","Variabile sorgente",
+     "Message","Message","Messaggio",
+     "Acked","Acked","Riconosciuto",
+     "Confirmed","Confirmed","Confermato",
+     "Severity","Severity","Gravità"
     ]
    }
 - Name: LocalizationDictionary2
+  Id: g=06d7549b33b20c177912a7c0f68d7d48
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
@@ -109,9 +123,23 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [2,3],
+    "Dimensions": [16,3],
     "Body": [
      "","en-US","it-IT",
-     "_hi","Hi","Ciao"
+     "_hi","Hi","Ciao",
+     "Cicli motore 1","Cicli motore 1","Cicli motore 1",
+     "cicli","cicli","Cicli motore 1",
+     "Cicli","Cicli","Cicli motore 1",
+     "_motor1","motor 1","motore 1",
+     "_motor2","motor 2","motore 2",
+     "_motor3","motor 3","motore 3",
+     "_motor4","motor 4","motore 4",
+     "_motor5","motor 5","motore 5",
+     "_motor6","motor 6","motore 6",
+     "_motor7","motor 7","motore 7",
+     "_motor8","motor 8","motore 8",
+     "_motor9","motor 9","motore 9",
+     "_motor10","motor 10","motore 10",
+     "_motor11","motor 11","motore 11"
     ]
    }

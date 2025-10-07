@@ -1,2 +1,161 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=ef5ddaceb861d5f9a3b2441fab4086b6
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Id: g=3be9daf5927b5413b7a44a12cdfed259
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=27;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Cicli
+          Type: StoreColumn
+          DataType: Int16
+        - Name: Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable3
+          Type: StoreColumn
+          DataType: Int32
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 100000
+    - Name: AlarmsEventLogger1
+      Id: g=91432ec8a7034498ee59039ecfed8281
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=27;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=27;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: ConfirmedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: ConditionName
+          Type: StoreColumn
+          DataType: String
+        - Name: EnabledState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+  - Class: Reference
+    Target: ns=29;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=27;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=59
+    Direction: Forward

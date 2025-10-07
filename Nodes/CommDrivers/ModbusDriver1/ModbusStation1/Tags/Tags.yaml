@@ -1,0 +1,38 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: ModbusTag1
+  Id: g=6603c4b164f0707ab3d6e4409018d625
+  Type: ModbusTag
+  DataType: Boolean
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+- Name: ModbusTag2
+  Id: g=6a818e0838e10f338e868b103de7e531
+  Type: ModbusTag
+  DataType: Boolean
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: ModbusTag3
+  Id: g=fc78f1a95c984e8b4e6990d12a086d59
+  Type: ModbusTag
+  DataType: Boolean
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
