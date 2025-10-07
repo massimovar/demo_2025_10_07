@@ -3,3 +3,4 @@ Type: CommDriversCategoryFolder
 Children:
 - File: CODESYSDriver1/CODESYSDriver1.yaml
 - File: ModbusDriver1/ModbusDriver1.yaml
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml

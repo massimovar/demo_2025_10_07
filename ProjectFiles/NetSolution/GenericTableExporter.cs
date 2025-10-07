@@ -16,6 +16,7 @@ using FTOptix.Core;
 using FTOptix.Alarm;
 using FTOptix.Modbus;
 using FTOptix.Recipe;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class GenericTableExporter : BaseNetLogic

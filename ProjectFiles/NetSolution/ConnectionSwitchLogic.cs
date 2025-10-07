@@ -13,6 +13,7 @@ using FTOptix.Alarm;
 using FTOptix.Modbus;
 using FTOptix.EventLogger;
 using FTOptix.Recipe;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ConnectionSwitchLogic : BaseNetLogic

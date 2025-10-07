@@ -15,6 +15,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using UAManagedCore;
 using FTOptix.Recipe;
+using FTOptix.RAEtherNetIP;
 using OpcUa = UAManagedCore.OpcUa;
 
 #endregion

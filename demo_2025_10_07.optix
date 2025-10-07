@@ -153,16 +153,24 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  39:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 6.3
+  40:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 2.2
  Statistics:
-  TotalNodeCount: 4816
-  Objects: 890
+  TotalNodeCount: 4847
+  Objects: 897
   ObjectTypes: 33
-  Variables: 3861
+  Variables: 3885
   VariableTypes: 0
   DataTypes: 0
   Methods: 32
-  References: 126
+  References: 132
   ReferenceTypes: 0
-  Files: 45
+  Files: 50
  Nodes:
  - File: Nodes/demo_2025_10_07.yaml

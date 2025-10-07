@@ -19,6 +19,7 @@ using FTOptix.CODESYS;
 using FTOptix.SQLiteStore;
 using FTOptix.Modbus;
 using FTOptix.EventLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class SplashPanelLogic : BaseNetLogic

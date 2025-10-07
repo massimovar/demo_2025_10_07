@@ -3,6 +3,7 @@ using System;
 using UAManagedCore;
 using System.Linq;
 using FTOptix.NetLogic;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic

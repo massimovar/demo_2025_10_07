@@ -13,6 +13,7 @@ using FTOptix.Recipe;
 using FTOptix.Alarm;
 using FTOptix.Modbus;
 using FTOptix.EventLogger;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ImportAndExportTranslations : BaseNetLogic

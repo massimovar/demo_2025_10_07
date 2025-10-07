@@ -31,16 +31,21 @@ Project:
    Uri: 'urn:FTOptix:CODESYSTagImporter'
    Module: FTOptix.CODESYSTagImporter
    Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 4
-  Objects: 1
+  TotalNodeCount: 7
+  Objects: 2
   ObjectTypes: 0
-  Variables: 3
+  Variables: 5
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 0
   ReferenceTypes: 0
-  Files: 1
+  Files: 2
  Nodes:
  - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml

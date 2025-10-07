@@ -4,6 +4,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.EventLogger;
 using FTOptix.Recipe;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic
